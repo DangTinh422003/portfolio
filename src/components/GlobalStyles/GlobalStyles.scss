@@ -1,10 +1,15 @@
 @import 'normalize.css';
+@import url('../../static/icon/font-awesome-pro-v6/css/all.min.css');
 
 * {
   box-sizing: border-box;
 }
 
 :root {
+  --primary-color: #ffb400;
+  --primary-bg-color: #2b2a2a;
+  --dark-bg-color: #111111;
+  --dark-text-color: #fff;
 }
 
 html {
@@ -13,4 +18,22 @@ html {
 
 body {
   font-size: 1.6rem;
+  background: var(--dark-bg-color);
+  color: var(--dark-text-color);
+  overflow-x: hidden;
+
+  height: 2000px;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
 }

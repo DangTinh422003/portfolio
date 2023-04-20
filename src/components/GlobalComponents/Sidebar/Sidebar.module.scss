@@ -1,0 +1,11 @@
+.sidebar {
+  position: fixed;
+  right: 10px;
+  top: 0;
+  height: 100%;
+  .nav {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
