@@ -1,46 +1,67 @@
-.navItem {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 20px;
-  background-color: var(--primary-bg-color);
-  color: var(--dark-text-color);
-  position: relative;
-  list-style: none;
-  cursor: pointer;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  .navLinkText {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 1.5rem;
-    line-height: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
+.navLink {
+  &.active {
+    .navItem {
+      background: var(--primary-color);
+    }
+  }
+  .navItem {
+    width: 50px;
+    height: 50px;
     background-color: var(--primary-bg-color);
     color: var(--dark-text-color);
-    border-radius: 30px;
-    margin: 0;
-    opacity: 0;
-    visibility: hidden;
-    z-index: -1;
-    transition: all 0.4s ease;
-  }
-  &:hover {
-    overflow: visible;
-    background-color: var(--primary-color);
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
     .navLinkText {
-      padding: 0px 70px 0 30px;
-      opacity: 1;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 1.5rem;
+      line-height: 50px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: var(--primary-bg-color);
+      color: var(--dark-text-color);
+      border-radius: 30px;
+      margin: 0;
+      opacity: 0;
+      visibility: hidden;
+      z-index: -1;
+      transition: all 0.4s ease;
+    }
+    .active {
+      color: red;
+    }
+    &:hover {
+      overflow: visible;
       background-color: var(--primary-color);
-      width: auto;
-      visibility: visible;
+      .navLinkText {
+        padding: 0px 70px 0 30px;
+        opacity: 1;
+        background-color: var(--primary-color);
+        width: auto;
+        visibility: visible;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .navLink {
+    .navItem {
+      width: 45px;
+      height: 45px;
+      background: #444444;
+      .navLinkText {
+        display: none;
+      }
     }
   }
 }
