@@ -1,0 +1,25 @@
+.Personal {
+  .Heading {
+    font-family: Poppins, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding-bottom: 22px;
+    text-transform: uppercase;
+  }
+  .Content {
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        width: 50%;
+        white-space: nowrap;
+        text-transform: capitalize;
+        span {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

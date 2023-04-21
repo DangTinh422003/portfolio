@@ -12,6 +12,7 @@
     font-weight: bold;
     color: #fff;
     transition: all 0.3s ease-in-out;
+    position: relative;
     &:hover {
       background: var(--primary-color);
       .icon {

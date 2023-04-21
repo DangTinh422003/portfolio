@@ -1,0 +1,32 @@
+.Header {
+  align-items: center;
+  display: flex;
+  font-family: Poppins, sans-serif;
+  justify-content: center;
+  padding: 80px 0;
+  text-transform: uppercase;
+  .content {
+    position: relative;
+    .mainHeading {
+      color: var(--primary-color);
+      font-size: 5.6rem;
+      font-weight: 900;
+      text-align: center;
+      span {
+        color: var(--dark-text-color);
+      }
+    }
+    .subHeading {
+      color: hsl(0deg 0% 100% / 7%);
+      font-size: 110px;
+      font-weight: 800;
+      left: 50%;
+      letter-spacing: 10px;
+      line-height: 0.7;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+}

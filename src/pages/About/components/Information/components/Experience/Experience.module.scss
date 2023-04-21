@@ -1,0 +1,43 @@
+.Experience {
+  .ExperienceList {
+    .item {
+      border: 1px solid #222222;
+      border-radius: 5px;
+      padding: 20px 30px 25px 40px;
+      margin-right: 30px;
+      margin-bottom: 30px;
+      .year {
+        color: var(--primary-color);
+        display: inline-block;
+        font-size: 5rem;
+        font-weight: bold;
+        position: relative;
+        span {
+          position: relative;
+          font-size: 3.4rem;
+          top: -18px;
+          left: -6px;
+        }
+      }
+      .desc {
+        font-size: 1.7rem;
+        padding-left: 45px;
+        text-transform: uppercase;
+        position: relative;
+        &::before {
+          content: '';
+          width: 25px;
+          height: 2px;
+          background: #777777;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+        }
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}
