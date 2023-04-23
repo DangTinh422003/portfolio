@@ -1,11 +1,13 @@
+import clsx from 'clsx';
 import styles from './Home.module.scss';
 import Information from './components/Information';
 import Thumbnail from './components/Thumbnail';
 
 function Home() {
   return (
-    <div className={styles.Home}>
-      <div className="container">
+    <div className={clsx(styles.Home, 'routingAnimation')}>
+      <div className={styles.colorBlock}></div>
+      <div className="container slideTop">
         <div className={styles.content}>
           <div className="row">
             <div className="col-lg col-12">

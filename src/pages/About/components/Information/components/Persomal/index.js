@@ -3,7 +3,14 @@ import styles from './Personal.module.scss';
 
 function Personal() {
   return (
-    <div className={styles.Personal}>
+    <div
+      className={styles.Personal}
+      data-aos="fade-up-right"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+    >
       <div className={styles.Heading}>PERSONAL INFOS</div>
       <div className={styles.Content}>
         <div className="row">
@@ -52,7 +59,7 @@ function Personal() {
         </div>
       </div>
       <LinkButton
-        icon={<i class="fa-solid fa-arrow-down"></i>}
+        icon={<i className="fa-solid fa-arrow-down"></i>}
         text="DOWNLOAD CV"
         path="#"
       />

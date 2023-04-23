@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import styles from './Resume.module.scss';
 
 function Resume() {
@@ -8,9 +9,9 @@ function Resume() {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <div className={styles.resumeItem}>
+              <div className={clsx(styles.resumeItem)} data-aos="fade-right">
                 <div className={styles.icon}>
-                  <i class="fa-solid fa-book-open"></i>
+                  <i className="fa-solid fa-book-open"></i>
                 </div>
                 <div className={styles.timeLine}>2019 - 2021</div>
                 <h3 className={styles.title}>
@@ -26,9 +27,9 @@ function Resume() {
             </div>
 
             <div className="col-6">
-              <div className={styles.resumeItem}>
+              <div className={clsx(styles.resumeItem)} data-aos="fade-left">
                 <div className={styles.icon}>
-                  <i class="fa-solid fa-building-columns"></i>
+                  <i className="fa-solid fa-building-columns"></i>
                 </div>
                 <div className={styles.timeLine}>2021</div>
                 <h3 className={styles.title}>
@@ -44,9 +45,9 @@ function Resume() {
             </div>
 
             <div className="col-6">
-              <div className={styles.resumeItem}>
+              <div className={clsx(styles.resumeItem)} data-aos="fade-right">
                 <div className={styles.icon}>
-                  <i class="fa-solid fa-code"></i>
+                  <i className="fa-solid fa-code"></i>
                 </div>
                 <div className={styles.timeLine}>2021</div>
                 <h3 className={styles.title}>
@@ -62,9 +63,9 @@ function Resume() {
             </div>
 
             <div className="col-6">
-              <div className={styles.resumeItem}>
+              <div className={clsx(styles.resumeItem)} data-aos="fade-left">
                 <div className={styles.icon}>
-                  <i class="fa-solid fa-code"></i>
+                  <i className="fa-solid fa-code"></i>
                 </div>
                 <div className={styles.timeLine}>November - 2021</div>
                 <h3 className={styles.title}>
@@ -80,9 +81,9 @@ function Resume() {
             </div>
 
             <div className="col-6">
-              <div className={styles.resumeItem}>
+              <div className={clsx(styles.resumeItem)} data-aos="fade-right">
                 <div className={styles.icon}>
-                  <i class="fa-solid fa-user"></i>
+                  <i className="fa-solid fa-user"></i>
                 </div>
                 <div className={styles.timeLine}>2022</div>
                 <h3 className={styles.title}>
@@ -98,9 +99,9 @@ function Resume() {
             </div>
 
             <div className="col-6">
-              <div className={styles.resumeItem}>
+              <div className={clsx(styles.resumeItem)} data-aos="fade-left">
                 <div className={styles.icon}>
-                  <i class="fa-solid fa-laptop"></i>
+                  <i className="fa-solid fa-laptop"></i>
                 </div>
                 <div className={styles.timeLine}>NOW</div>
                 <h3 className={styles.title}>

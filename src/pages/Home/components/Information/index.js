@@ -1,9 +1,10 @@
 import LinkButton from '~/components/GlobalComponents/LinkButton';
 import styles from './Information.module.scss';
+import clsx from 'clsx';
 
 function Information() {
   return (
-    <div className={styles.Information}>
+    <div className={clsx(styles.Information)}>
       <div className="container">
         <div className={styles.Content}>
           <h1 className={styles.Heading}>

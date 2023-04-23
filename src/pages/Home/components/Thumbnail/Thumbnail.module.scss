@@ -13,16 +13,6 @@
       object-fit: cover;
     }
   }
-  .colorBlock {
-    background: var(--primary-color);
-    position: fixed;
-    height: 200%;
-    width: 100%;
-    transform: rotate(-15deg);
-    top: -50%;
-    left: -83%;
-    z-index: -1;
-  }
 }
 
 @media (max-width: 992px) {

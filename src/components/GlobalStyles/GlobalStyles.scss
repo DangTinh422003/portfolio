@@ -22,17 +22,56 @@ body {
   background: var(--dark-bg-color);
   color: var(--dark-text-color);
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 6px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   border-radius: 4px;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: var(--primary-color);
   border-radius: 4px;
+}
+
+.routingAnimation {
+  &::after {
+    content: '';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    z-index: 999;
+    background: #2b2a2a;
+    animation: routingAnimation 0.5s linear;
+  }
+  @keyframes routingAnimation {
+    0% {
+      height: 100vh;
+    }
+    20% {
+      height: 80vh;
+    }
+    100% {
+      height: 0;
+    }
+  }
+}
+
+.slideTop {
+  animation: slideTop 0.8s ease-out;
+}
+@keyframes slideTop {
+  from {
+    transform: translateY(120px);
+  }
 }
