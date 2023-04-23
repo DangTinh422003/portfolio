@@ -20,8 +20,7 @@ function Resume() {
                 <p className={styles.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Obcaecati rerum maiores velit ducimus minima earum corrupti
-                  necessitatibus, nulla dolor? Totam numquam nulla beatae rem
-                  consectetur ut ad esse provident vero.
+                  necessitatibus, nulla dolor? vero.
                 </p>
               </div>
             </div>
@@ -38,8 +37,7 @@ function Resume() {
                 <p className={styles.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Obcaecati rerum maiores velit ducimus minima earum corrupti
-                  necessitatibus, nulla dolor? Totam numquam nulla beatae rem
-                  consectetur ut ad esse provident vero.
+                  necessitatibus, nulla dolor? vero.
                 </p>
               </div>
             </div>
@@ -56,8 +54,7 @@ function Resume() {
                 <p className={styles.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Obcaecati rerum maiores velit ducimus minima earum corrupti
-                  necessitatibus, nulla dolor? Totam numquam nulla beatae rem
-                  consectetur ut ad esse provident vero.
+                  necessitatibus, nulla dolor? vero.
                 </p>
               </div>
             </div>
@@ -74,8 +71,7 @@ function Resume() {
                 <p className={styles.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Obcaecati rerum maiores velit ducimus minima earum corrupti
-                  necessitatibus, nulla dolor? Totam numquam nulla beatae rem
-                  consectetur ut ad esse provident vero.
+                  necessitatibus, nulla dolor? vero.
                 </p>
               </div>
             </div>
@@ -92,8 +88,7 @@ function Resume() {
                 <p className={styles.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Obcaecati rerum maiores velit ducimus minima earum corrupti
-                  necessitatibus, nulla dolor? Totam numquam nulla beatae rem
-                  consectetur ut ad esse provident vero.
+                  necessitatibus, nulla dolor? vero.
                 </p>
               </div>
             </div>
@@ -110,8 +105,7 @@ function Resume() {
                 <p className={styles.desc}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Obcaecati rerum maiores velit ducimus minima earum corrupti
-                  necessitatibus, nulla dolor? Totam numquam nulla beatae rem
-                  consectetur ut ad esse provident vero.
+                  necessitatibus, nulla dolor? vero.
                 </p>
               </div>
             </div>
