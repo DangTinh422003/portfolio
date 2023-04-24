@@ -13,12 +13,12 @@ function Contact() {
           subHeading={'contact'}
         />
 
-        <div className={styles.Content}>
+        <div className={clsx(styles.Content, 'slideTop')}>
           <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4 col-12">
               <ContactInfo />
             </div>
-            <div className="col-8">
+            <div className="col-lg-8 col-12">
               <ContactForm />
             </div>
           </div>

@@ -29,7 +29,7 @@ function ContactInfo() {
 
         <li>
           <div className={styles.icon}>
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
           </div>
           <span>PHONE</span>
           0862040xxx

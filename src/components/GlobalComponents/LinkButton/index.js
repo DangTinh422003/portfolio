@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './LinkButton.module.scss';
 
-function LinkButton({ icon, text, path }) {
+function LinkButton({ icon, text, path = '' }) {
   return (
     <Link to={path} className={styles.LinkButton}>
       <div className={styles.content}>
