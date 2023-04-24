@@ -30,3 +30,18 @@
     }
   }
 }
+
+@media (max-width: 730px) {
+  .Header {
+    .content {
+      .mainHeading {
+        font-size: 3.5rem;
+        letter-spacing: 4px;
+      }
+      .subHeading {
+        font-size: 6.5rem;
+        letter-spacing: 4px;
+      }
+    }
+  }
+}

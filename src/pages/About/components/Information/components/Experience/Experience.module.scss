@@ -3,7 +3,7 @@
     .item {
       border: 1px solid #222222;
       border-radius: 5px;
-      padding: 20px 30px 25px 40px;
+      padding: 20px 30px;
       margin-bottom: 30px;
       .year {
         color: var(--primary-color);
@@ -35,6 +35,25 @@
         }
         span {
           display: block;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .Experience {
+    .ExperienceList {
+      .item {
+        .year {
+          font-size: 4rem;
+        }
+        .desc {
+          padding: 0;
+          font-size: 1.5rem;
+          &::before {
+            display: none;
+          }
         }
       }
     }

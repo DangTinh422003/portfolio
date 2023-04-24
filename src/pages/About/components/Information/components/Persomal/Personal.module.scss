@@ -24,3 +24,17 @@
     }
   }
 }
+
+@media (max-width: 730px) {
+  .Personal {
+    .Content {
+      ul {
+        li {
+          span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
