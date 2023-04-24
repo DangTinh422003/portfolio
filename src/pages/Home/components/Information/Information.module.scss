@@ -67,3 +67,26 @@
     }
   }
 }
+
+// mobild
+@media (max-width: 730px) {
+  .Information {
+    .Content {
+      .Heading {
+        font-size: 2.9rem;
+        line-height: 39px;
+        text-align: center;
+      }
+      .desc {
+        font-size: 1.4rem;
+        line-height: 28px;
+        padding: 0 1rem;
+        text-align: center;
+      }
+      .control {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+}

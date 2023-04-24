@@ -12,7 +12,7 @@ function Experience() {
     >
       <div className={styles.ExperienceList}>
         <div className="row">
-          <div className="col-6" style={{ paddingRight: '20px' }}>
+          <div className="col-6">
             <div className={styles.item}>
               <div className={styles.year}>
                 1 <span>+</span>
@@ -23,7 +23,7 @@ function Experience() {
             </div>
           </div>
 
-          <div className="col-6" style={{ paddingRight: '20px' }}>
+          <div className="col-6">
             <div className={styles.item}>
               <div className={styles.year}>
                 3 <span>+</span>
@@ -34,7 +34,7 @@ function Experience() {
             </div>
           </div>
 
-          <div className="col-6" style={{ paddingRight: '20px' }}>
+          <div className="col-6">
             <div className={styles.item}>
               <div className={styles.year}>
                 1 <span>+</span>
@@ -45,7 +45,7 @@ function Experience() {
             </div>
           </div>
 
-          <div className="col-6" style={{ paddingRight: '20px' }}>
+          <div className="col-6">
             <div className={styles.item}>
               <div className={styles.year}>
                 1 <span>+</span>

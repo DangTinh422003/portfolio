@@ -16,7 +16,7 @@ function ContactInfo() {
             <i className="fa-solid fa-location-dot"></i>
           </div>
           <span>ADDRESS</span>
-          Japan
+          District 7, Ho Chi Minh City
         </li>
 
         <li>
