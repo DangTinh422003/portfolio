@@ -1,6 +1,7 @@
 import Header from '~/components/GlobalComponents/Header';
 import styles from './Portfolio.module.scss';
 import clsx from 'clsx';
+import ControlGroup from './ControlGroup';
 
 function Portfolio() {
   return (
@@ -12,10 +13,7 @@ function Portfolio() {
 
       <div className="content">
         <div className="container">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos
-          numquam non iure neque doloremque architecto ratione placeat nemo.
-          Consequatur molestias explicabo commodi qui suscipit molestiae minus
-          aperiam iure praesentium?
+          <ControlGroup></ControlGroup>
         </div>
       </div>
     </div>
