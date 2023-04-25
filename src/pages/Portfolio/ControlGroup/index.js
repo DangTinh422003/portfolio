@@ -19,7 +19,6 @@ function ControlGroup() {
   });
 
   const handleActiveButton = (e) => {
-    console.log(indexActiveButton);
     setIndexActiveButton(+e.target.dataset.indexactive);
   };
 
