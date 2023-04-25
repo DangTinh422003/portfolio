@@ -2,6 +2,7 @@ import Header from '~/components/GlobalComponents/Header';
 import styles from './Portfolio.module.scss';
 import clsx from 'clsx';
 import ControlGroup from './ControlGroup';
+import Projects from './Projects';
 
 function Portfolio() {
   return (
@@ -14,6 +15,7 @@ function Portfolio() {
       <div className="content">
         <div className="container">
           <ControlGroup></ControlGroup>
+          <Projects></Projects>
         </div>
       </div>
     </div>
