@@ -1,4 +1,10 @@
 .Contact {
   height: 100vh;
-  overflow: hidden;
+  overflow-y: hidden;
+}
+
+@media (max-width: 993px) {
+  .Contact {
+    overflow: auto;
+  }
 }
