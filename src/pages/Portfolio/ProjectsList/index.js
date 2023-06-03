@@ -36,10 +36,7 @@ function ProjectsList() {
       </div>
 
       {activeModal && (
-        <DetailModal
-          data={projects[idActiveModal]}
-          onActiveModal={handleActiveModal}
-        />
+        <DetailModal data={projects[idActiveModal]} onActiveModal={handleActiveModal} />
       )}
     </div>
   );

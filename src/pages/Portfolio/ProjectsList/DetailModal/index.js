@@ -5,7 +5,7 @@ import ContentRight from './components/ContentRight';
 function DetailModal({ data, onActiveModal }) {
   return (
     <div className={styles.DetailModal}>
-      <div className={styles.overlay}></div>
+      <div className={styles.overlay} onClick={onActiveModal}></div>
       <div className={styles.content}>
         <div className="container">
           <div className="row">

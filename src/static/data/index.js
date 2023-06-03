@@ -39,7 +39,7 @@ export const projects = [
     id: 1,
     name: 'tic tac toe',
     images: [tictactoe1, tictactoe2, tictactoe3],
-    desc: 'A small project was created during the first year of studying at Ton Duc Thang University. This tic tac toe project was a major assignment to join the ICON club of the computer science department.',
+    desc: 'A small project was created during the first year of studying at Ton Duc Thang University.',
     created: 'Feb 19, 2021',
     role: 'FE Developer',
     frontend: ['HTML', 'CSS', 'JS'],

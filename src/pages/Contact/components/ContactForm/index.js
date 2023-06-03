@@ -116,7 +116,7 @@ function ContactForm() {
 
       <button className={styles.submitBtn} onClick={handleSubmit}>
         <LinkButton
-          icon={<i className="fa-sharp fa-solid fa-mailbox"></i>}
+          icon={<i className="fa-solid fa-paper-plane"></i>}
           text={'send message'}
         />
       </button>
