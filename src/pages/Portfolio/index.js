@@ -7,13 +7,10 @@ import ProjectsList from './ProjectsList';
 function Portfolio() {
   return (
     <div className={clsx(styles.Portfolio, 'routingAnimation')}>
-      <Header
-        mainHeading={{ strong: 'portfolio', main: 'my' }}
-        subHeading={'works'}
-      />
+      <Header mainHeading={{ strong: 'portfolio', main: 'my' }} subHeading={'works'} />
 
       <div className="content">
-        <div className="container">
+        <div className="container-lg ">
           <ControlGroup></ControlGroup>
           <ProjectsList></ProjectsList>
         </div>

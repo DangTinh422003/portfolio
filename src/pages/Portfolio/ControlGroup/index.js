@@ -7,15 +7,13 @@ function ControlGroup() {
   const [indexActiveButton, setIndexActiveButton] = useState(3);
 
   useEffect(() => {
-    ControlGroup.current
-      ?.querySelectorAll('button')
-      .forEach((button, index) => {
-        if (index === indexActiveButton) {
-          button.classList.add(styles.Active);
-        } else {
-          button.classList.remove(styles.Active);
-        }
-      });
+    ControlGroup.current?.querySelectorAll('button').forEach((button, index) => {
+      if (index === indexActiveButton) {
+        button.classList.add(styles.Active);
+      } else {
+        button.classList.remove(styles.Active);
+      }
+    });
   });
 
   const handleActiveButton = (e) => {

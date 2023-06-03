@@ -9,15 +9,14 @@ function DetailModal({ data, onActiveModal }) {
       <div className={styles.content}>
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <ContentLeft data={data}></ContentLeft>
             </div>
 
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <ContentRight data={data}></ContentRight>
             </div>
           </div>
-
           <button className={styles.closeBtn} onClick={onActiveModal}>
             <i className="fa-solid fa-xmark"></i>
           </button>

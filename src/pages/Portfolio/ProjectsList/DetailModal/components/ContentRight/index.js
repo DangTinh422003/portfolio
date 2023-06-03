@@ -3,7 +3,7 @@ import styles from './ContentRight.module.scss';
 function ContentRight({ data }) {
   return (
     <div className={styles.ContentRight}>
-      <h3 className={styles.heading}>MYFOODIE</h3>
+      <h3 className={styles.heading}>DETAILS</h3>
       <ul className={styles.content}>
         <li className={styles.desc}>
           <p>{data.desc}</p>
