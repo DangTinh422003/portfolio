@@ -11,6 +11,7 @@ import {
   react,
   redux,
   sass,
+  typescript,
 } from '~/static/img/skill';
 
 function Skills() {
@@ -20,11 +21,7 @@ function Skills() {
       <div className={styles.Content}>
         <div className="row">
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={html} alt="" className={styles.logo} />
               </div>
@@ -33,11 +30,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={css} alt="" className={styles.logo} />
               </div>
@@ -46,11 +39,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={sass} alt="" className={styles.logo} />
               </div>
@@ -59,11 +48,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={js} alt="" className={styles.logo} />
               </div>
@@ -72,11 +57,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={java} alt="" className={styles.logo} />
               </div>
@@ -85,11 +66,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={bootstrap} alt="" className={styles.logo} />
               </div>
@@ -98,11 +75,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={nodejs} alt="" className={styles.logo} />
               </div>
@@ -111,11 +84,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={axios} alt="" className={styles.logo} />
               </div>
@@ -124,11 +93,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={react} alt="" className={styles.logo} />
               </div>
@@ -137,11 +102,16 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
+              <div className={styles.wrapLogo}>
+                <img src={typescript} alt="" className={styles.logo} />
+              </div>
+              <p className={styles.skillName}>typescript</p>
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-4 col-6">
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={git} alt="" className={styles.logo} />
               </div>
@@ -150,11 +120,7 @@ function Skills() {
           </div>
 
           <div className="col-lg-3 col-md-4 col-6">
-            <div
-              className={styles.skillItem}
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className={styles.skillItem} data-aos="fade-up" data-aos-duration="1000">
               <div className={styles.wrapLogo}>
                 <img src={redux} alt="" className={styles.logo} />
               </div>

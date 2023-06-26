@@ -20,7 +20,7 @@ function ContactForm() {
     username: '',
     email: '',
     subject: '',
-    message: '',
+    message: '', 
   });
 
   const handleOnChange = (e) => {
@@ -36,12 +36,7 @@ function ContactForm() {
       const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
       return gmailRegex.test(email);
     };
-    if (
-      !userInfo.email ||
-      !userInfo.message ||
-      !userInfo.subject ||
-      !userInfo.username
-    ) {
+    if (!userInfo.email || !userInfo.message || !userInfo.subject || !userInfo.username) {
       toast.error('Please fill all fields', toastOption);
       return;
     } else if (!validateGmail(userInfo.email)) {
@@ -115,10 +110,7 @@ function ContactForm() {
       </div>
 
       <button className={styles.submitBtn} onClick={handleSubmit}>
-        <LinkButton
-          icon={<i className="fa-solid fa-paper-plane"></i>}
-          text={'send message'}
-        />
+        <LinkButton icon={<i className="fa-solid fa-paper-plane"></i>} text={'send message'} />
       </button>
       {/* Same as */}
       <ToastContainer />

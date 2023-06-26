@@ -5,7 +5,9 @@ import 'aos/dist/aos.css';
 function Animation({ children }) {
   // animation library
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      disable: 'phone',
+    });
   }, []);
 
   return <>{children}</>;
