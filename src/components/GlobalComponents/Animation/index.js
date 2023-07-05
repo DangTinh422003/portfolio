@@ -6,7 +6,7 @@ function Animation({ children }) {
   // animation library
   useEffect(() => {
     AOS.init({
-      disable: 'phone',
+      once: true,
     });
   }, []);
 
