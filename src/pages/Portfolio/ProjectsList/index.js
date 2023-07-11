@@ -2,6 +2,7 @@ import { projects } from '~/static/data';
 import styles from './ProjectsList.module.scss';
 import DetailModal from './DetailModal';
 import { useState } from 'react';
+import Img from '~/components/GlobalComponents/Img';
 
 function ProjectsList() {
   const [idActiveModal, setIdActiveModal] = useState();
@@ -25,7 +26,7 @@ function ProjectsList() {
               data-aos-duration="500"
             >
               <div className={styles.imageWrap}>
-                <img src={project.images[0]} alt={project.name} />
+                <Img src={project.images[0]} alt={project.name} />
               </div>
               <div className={styles.projectName}>
                 <h3>{project.name}</h3>

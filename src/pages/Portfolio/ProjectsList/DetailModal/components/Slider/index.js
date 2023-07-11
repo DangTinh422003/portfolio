@@ -1,4 +1,5 @@
 import styles from './Slider.module.scss';
+import Img from '~/components/GlobalComponents/Img';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -20,7 +21,7 @@ function Slider({ images }) {
       >
         {images?.map((image, index) => (
           <SwiperSlide key={index} virtualIndex={index} className={styles.sliderItem}>
-            <img src={image} alt="" />
+            <Img src={image} alt="" />
           </SwiperSlide>
         ))}
       </Swiper>

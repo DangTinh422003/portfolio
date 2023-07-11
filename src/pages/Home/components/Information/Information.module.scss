@@ -1,3 +1,9 @@
+@mixin sm {
+  @media only screen and (min-width: 640px) {
+    @content;
+  }
+}
+
 .Information {
   height: 100%;
   display: flex;
@@ -84,7 +90,7 @@
         text-align: center;
       }
       .control {
-        gap: 20px;
+        gap: 10px;
       }
     }
   }

@@ -54,9 +54,6 @@
 @media screen and (max-width: 992px) {
   .DetailModal {
     overflow: auto;
-    &::-webkit-scrollbar {
-      display: none;
-    }
     .content {
       top: 40px;
       left: 50%;

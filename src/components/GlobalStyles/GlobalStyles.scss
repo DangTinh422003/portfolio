@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --primary-color: #ffb400;
   --primary-bg-color: #2b2a2a;
@@ -23,22 +27,6 @@ body {
   color: var(--dark-text-color);
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 4px;
 }
 
 .routingAnimation {
