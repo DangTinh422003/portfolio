@@ -1,11 +1,11 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import "react-lazy-load-image-component/src/effects/blur.css";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import styles from './Img.module.scss';
 
-function Img({ alt, height, src, width, className = '' }) {
-  console.log(className);
+function Img({ alt, height, src, width, className = '', transparent = false }) {
   return (
     <LazyLoadImage
-      wrapperClassName={className}
+      wrapperClassName={`${className} ${!transparent ? styles.wrapperImg : ''}`}
       effect="blur"
       alt={alt}
       height={height}

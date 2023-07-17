@@ -154,7 +154,7 @@ export const projects = [
     frontend: ['React', 'SCSS'],
     backend: null,
     tags: ['react', 'scss', 'ui/ux', 'responsive', 'animation', 'portfolio', 'web design'],
-    demo: 'https://portfolio-bay-one-82.vercel.app/',
+    demo: 'https://cdt-portfolio.id.vn/',
     source: 'https://github.com/DangTinh422003/portfolio',
   },
   {

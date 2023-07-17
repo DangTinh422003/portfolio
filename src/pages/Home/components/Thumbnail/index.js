@@ -7,7 +7,12 @@ function Thumbnail() {
   return (
     <div className={styles.Thumbnail}>
       <div className={styles.Thumbnail__wrap}>
-        <Img src={ThumbnailImage} alt="ThumbnailImage" className={clsx(styles.ThumbnailImage)} />
+        <Img
+          src={ThumbnailImage}
+          alt="ThumbnailImage"
+          className={clsx(styles.ThumbnailImage)}
+          transparent={true}
+        />
       </div>
     </div>
   );
