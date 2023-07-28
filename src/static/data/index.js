@@ -57,7 +57,7 @@ export const projects = [
     source: 'https://github.com/DangTinh422003/movix',
   },
   {
-    id: 10,
+    id: 5,
     name: 'booking hotel',
     images: [
       hotelbooking1,
